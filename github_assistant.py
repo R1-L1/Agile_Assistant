@@ -108,8 +108,8 @@ class GitHubAssistant:
             print(e)
 
 auto_mode = True
-project_name = "test"
-pbi_name = "ユーザーニーズ調査を実施"
+project_name = "TEST"
+pbi_name = "ユーザーニーズ調査の実施"
 # 非同期関数を実行するためのエントリーポイント
 github_assistant = GitHubAssistant(project_name, pbi_name, prompt_file_path, md_file_path, diff_file_path, auto_mode)
 asyncio.run(github_assistant.run_schedule())
